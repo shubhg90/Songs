@@ -107,7 +107,7 @@ const playmusic = (track, pause = false) => {
 
 }
 async function displayAlbums() {
-    let as = await fetch(`http://localhost:5500/songs`)
+    let as = await fetch(`/songs`)
     let res = await as.text();
 
     let div = document.createElement("div")
