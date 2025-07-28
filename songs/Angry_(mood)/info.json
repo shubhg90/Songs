@@ -1,0 +1,17 @@
+{
+    "title": "Angry Mood",
+    "description": "Calm your Anger",
+   "tracks": [
+    {
+      "title": "Sunrise Dream",
+      "description": "A mellow instrumental to ease into your morning.",
+      "file": "Jhol - PagalWorld.mp3"
+    },
+    {
+      "title": "Pixel Rush",
+      "description": "Upbeat synth layers for coding marathons.",
+      "file": "Main Ishq Likhu Tujhe Ho Jaye - PagalWorld.mp3"
+    }
+  ]
+    
+}

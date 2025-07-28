@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+
+  font-family: "Roboto", sans-serif;
+}
+body{
+   background-color: black;
+    color: white ;
+
+}
+.left{
+    width :25vw;
+    padding: 10px;
+}
+.right {
+    width :75vw;
+    margin: 16px 0;
+    position: relative;
+}
+.home{
+    
+}
+.home ul li{
+    width: 14px;
+    list-style :none;
+    display: flex;
+    gap:15px;
+    padding: 14px;
+    padding-top: 14;
+font-weight: bold;
+
+
+}
+.library{
+    min-height: 80vh;
+    position: relative;
+}
+.heading{
+    
+    
+    display: flex;
+    gap:15px;
+    width: 100%;
+     padding-top: 14px;
+     padding: 23px 14px;
+font-weight: bold;
+align-items: center;
+font-size: 10px;
+}
+.heading img{
+    width:30px;
+}
+.footer{
+    display: flex;
+    font-size :10px;
+    color:grey;
+    gap:13px;
+    position: absolute;
+    bottom: 0;
+}
+.footer a{
+    color:grey;
+    padding: 10px  0;
+}
+
+.header{
+    display: flex;
+justify-content: space-between; 
+background-color: rgb(32, 32, 32);
+height: 72px;
+
+}
+.header> *{
+    padding: 20px;
+}
+
+.spotify-playlist
+{
+    padding: 6px;
+}
+.cardContainer{
+display: flex;
+flex-wrap: wrap;
+gap: 15px;
+margin: 30px;
+overflow-y: scroll;
+max-height: 70vh;
+}
+
+
+ .card{
+    width:200px;
+    
+padding: 10px;
+border-radius: 10px;
+background-color: #252525;
+position: relative;
+}
+.card img{
+    width:100%;
+    object-fit: contain;
+}
+
+.card >*{
+    padding-top: 10px;
+} 
+.play svg{
+    
+    
+    background-color: rgb(143, 243, 143); /* Change this to any color you want */
+    display: inline-block; /* Makes the background wrap only around the content */
+    padding: 5px; /* Adjust padding to fit around the circle */
+    border-radius: 50%; /* Optional: Makes it rounded */
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+    position: absolute;
+    top:188px;
+    right:17px;  
+opacity:1 ;
+transition: all 1s ease-in-out;
+
+}
+.play svg:hover{
+    background-color: #0b7b34;
+    transition: transform .2s linear 0s ;
+    transform: translateY(-40px);
+    
+   
+    
+}
+.buttons > *{
+    margin: 0 12px;
+}
+.signupbtn{
+background-color:rgb(34, 34, 34);
+color: rgb(156,148,148);
+font-weight: bold;
+border: none;
+outline: none;
+cursor: pointer;
+}
+.signupbtn:hover{
+font-size: 16px;
+color: white;
+}
+.loginbtn{
+    background-color: white;
+    border-radius: 21px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+    width: 79px;
+
+}
+.loginbtn:hover{
+    font-weight: bold;
+    cursor: pointer;
+    width: 80px;
+    font-size: 17px;
+
+}
+.playbar{
+    position: absolute;
+    bottom: 0;
+    background-color: green;
+    width: 100%;
+    padding: 12px;
+}
+
